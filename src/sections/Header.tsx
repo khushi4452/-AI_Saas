@@ -25,7 +25,7 @@ export function Header() {
             </button>
             {/* Use Image component for MenuIcon */}
             <Image src={MenuIcon} alt="Menu" className="h-8 w-8 object-contain" />
-           
+         
           </div>
         </div>
       </div>
