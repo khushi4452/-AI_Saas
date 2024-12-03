@@ -5,9 +5,9 @@ import { Button } from "../components/Button";
 
 export function Header() {
   return (
-    <header className="py-4 border-b border-white/15 md:border-none">
+    <header className="py-4 border-b border-white/15 md:border-none sticky top-0">
       <div className="container mx-auto">
-        <div className="flex justify-between items-center border-white/15">
+        <div className="flex justify-between items-center border-white/15 backdrop:blur">
           {/* Logo */}
           <div className="border-white/15 h-10 w-10 rounded-xl inline-flex justify-center items-center md:p-2.5">
             <Image src={LogoIcon} alt="Logo" className="h-8 w-8 object-contain" />
