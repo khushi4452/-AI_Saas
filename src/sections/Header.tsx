@@ -25,7 +25,8 @@ export function Header() {
 
           {/* Button and Hamburger Menu */}
           <div className="flex gap-4 items-center">
-            <Button>Join Waitlist</Button>
+            <Button>Sign In</Button>
+          
             <Image src={MenuIcon} alt="Menu" className="h-8 w-8 object-contain sm:hidden" />
           </div>
         </div>
