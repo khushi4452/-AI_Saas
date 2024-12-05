@@ -3,25 +3,25 @@ import avatar1 from "./../assets/Avatar 1.png";
 
 const testimonials = [
     {
-        text: "the product",
+        text: "This Product hascompletely transformed how I Managed my projects and Deadlines",
+        name: "khushi",
+        title: "Directory @ Quantum",
+        avatarImg: avatar1,
+    },
+    {
+        text: "This Product hascompletely transformed how I Managed my projects and Deadlines",
         name: "khushi",
         title: "cncje",
         avatarImg: avatar1,
     },
     {
-        text: "the product",
+        text: "This Product hascompletely transformed how I Managed my projects and Deadlines",
         name: "khushi",
         title: "cncje",
         avatarImg: avatar1,
     },
     {
-        text: "the product",
-        name: "khushi",
-        title: "cncje",
-        avatarImg: avatar1,
-    },
-    {
-        text: "the product",
+        text: "This Product hascompletely transformed how I Managed my projects and Deadlines",
         name: "khushi",
         title: "cncje",
         avatarImg: avatar1,
@@ -45,11 +45,11 @@ export const Testimonials = () => {
                         {testimonial.text}
                     </div>
                     <div className="flex items-center gap-3 mt-5">
-                        <div className="relative after:content-[''] after:absolute after:inset-0 after:bg-[rgb(140,69,244)] after:mix-blend-soft-light">
+                        <div className="relative after:content-[''] after:absolute after:inset-0 after:bg-[rgb(140,69,244)] after:mix-blend-soft-light before:content-[''] before:absolute before:inset-0 before:border before:border-white/30">
                             <Image
                                 src={testimonial.avatarImg}
                                 alt={`Avatar for ${testimonial.name}`}
-                                className="h-11 w-11 rounded-lg grayscale border border-white/30"
+                                className="h-11 w-11 rounded-lg grayscale "
                             />
                         </div>
                         <div>
